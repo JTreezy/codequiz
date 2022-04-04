@@ -1,0 +1,62 @@
+.interface-container {
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.interface-container #timer {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: chocolate;
+}
+
+.interface-container nav {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: chocolate;
+}
+
+.interface-container h1 {
+    background-color:chocolate;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.interface-container p {
+    background-color: chocolate;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.interface-container button {
+    padding: 10px;
+    border-radius: 30px;
+    border-color: aqua;
+    background-color: yellow;
+}
+
+#coding-prompt {
+    display: none;
+}
+
+#results-screen {
+    display: none;
+}
