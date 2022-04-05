@@ -55,6 +55,24 @@
 
 #coding-prompt {
     display: none;
+    background-color: chocolate;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#coding-question {
+    background-color: chocolate;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#coding-choices {
+    display: flex;
+    flex-direction: column;
 }
 
 #results-screen {

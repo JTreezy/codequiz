@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <div class="interface-container" data-state="intro">
-        
-        <div id="timer">Time Left</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Quiz</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="interface-container" >
+            <button id="timer" onClick="timer()">Time Left</button>
+            <nav>View Highscores</nav>
+            <div id="start">
+                <h1>Coding Challenge Title</h1>
+                <p>Try to answer the following questions within the given time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+                <button onclick="startButton()">Start Quiz</button>
+            </div>
+            
+            <div id="coding-prompt">
+                <div id="coding-question">Sample</div>
+                <div id="coding-choices">
+                    <button id="button1">answer1</button>
+                    <button id="button2">answer2</button>
+                    <button id="button3">answer3</button>
+                    <button id="button4">answer4</button>
+                </div>
+                <div id="check"></div>
+            </div>
 
-        <nav>View Highscores</nav>
-        <div id="start">
-            <h1>Coding Challenge Title</h1>
-        
-            <p>Try to answer the following questions within the given time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
-            <button onclick="startButton()">Start Quiz</button>
+            <div id="results-screen">
+                <div>'All Done, your score is <span id="score"></span></div>
+                <form></form>
+                <button></button>
+            </div>
         </div>
-
-        <div id="coding-prompt">
-            <div id="coding-question"></div>
-            <div id="coding-choices"></div>
-            <div id="check"></div>
-        </div>
-        <div id="results-screen">
-            <div></div>
-            <form></form>
-            <button></button>
-        </div>
-        
-    </div>
-
-    <script src="./assets/js/script.js"></script>
-</body>
-</html> 
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
