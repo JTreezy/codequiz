@@ -10,7 +10,7 @@
     <body>
         <div class="interface-container" >
             <button id="timer" onClick="timer()">Time Left</button>
-            <nav>View Highscores</nav>
+            <nav><button onclick="flipScreen(3)">View Highscores</input></nav>
             <div id="start">
                 <h1>Coding Challenge Title</h1>
                 <p>Try to answer the following questions within the given time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
@@ -29,9 +29,15 @@
             </div>
 
             <div id="results-screen">
-                <div>'All Done, your score is <span id="score"></span></div>
-                <form></form>
-                <button></button>
+                <p>All Done, your score is <span id="score"></span>!!<br>Enter Initials Below</p>
+                <input id="initials" type="text"></input>
+                <button id="submit">Submit</button>
+            </div>
+
+            <div id="highscore-list">
+                <div id="listlist"></div>
+                <button onclick="flipScreen(0)">Go Back</button>
+                <button onclick="clearHighscore()">Clear Highscores</button>
             </div>
         </div>
         <script src="./assets/js/script.js"></script>
