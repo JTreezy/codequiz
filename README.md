@@ -24,8 +24,6 @@ The following animation demonstrates the application functionality:
 
 Link to deployed GitHub pages application: https://jtreezy.github.io/password-generator/
  
-
-
 This homework is graded based on the following criteria: 
 
 ### Technical Acceptance Criteria: 40%
