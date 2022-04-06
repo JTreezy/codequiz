@@ -1,12 +1,12 @@
 var timeLeft = 60
 var previousClock = 60
 var question1 = {
-    title: "What is my favorite color",
+    title: "What is my favorite color?",
     options: ["silver","blue","black","white"],
     correctAnswer: 0
 }
 var question2 = {
-    title: "Who is a character in Spongebob",
+    title: "Who is a character in the show, Spongebob Squarepants?",
     options: ["Tom","Steve","Rick","Patrick"],
     correctAnswer: 3
 }
@@ -16,7 +16,7 @@ var question3 = {
     correctAnswer: 2
 }
 var question4 = {
-    title: "What is my favorite article of clothing",
+    title: "What is my favorite article of clothing?",
     options: ["hat","pants","hoodie","shirt"],
     correctAnswer: 2
 }
@@ -36,6 +36,7 @@ function startButton() {
     nextQuestion(0);
     runClock();  
 }
+
 
 function flipScreen(section) {
     for (let i = 0; i < sections.length; i++) {

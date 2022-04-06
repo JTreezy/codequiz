@@ -14,7 +14,7 @@
             <div id="start">
                 <h1>Coding Challenge Title</h1>
                 <p>Try to answer the following questions within the given time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
-                <button onclick="startButton()">Start Quiz</button>
+                <button id="start-button" onclick="startButton()">Start Quiz</button>
             </div>
             
             <div id="coding-prompt">
@@ -36,8 +36,8 @@
 
             <div id="highscore-list">
                 <div id="listlist"></div>
-                <button onclick="flipScreen(0)">Go Back</button>
-                <button onclick="clearHighscore()">Clear Highscores</button>
+                <button id="goback" onclick="flipScreen(0)">Go Back</button>
+                <button id="clearhigh" onclick="clearHighscore()">Clear Highscores</button>
             </div>
         </div>
         <script src="./assets/js/script.js"></script>

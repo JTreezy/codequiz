@@ -36,6 +36,7 @@
     padding: 20px;
     border-radius: 30px;
     color: white;
+    text-align: center;
 }
 
 .interface-container p {
@@ -44,6 +45,7 @@
     border-radius: 30px;
     padding: 20px;
     margin: 20px;
+    text-align: center;
 }
 
 .interface-container button {
@@ -51,6 +53,7 @@
     border-radius: 30px;
     border-color: aqua;
     background-color: yellow;
+    color: purple;
 }
 
 #coding-prompt {
@@ -76,5 +79,19 @@
 }
 
 #results-screen {
+    display: none;
+}
+
+#start-button {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+#goback{
+    display: none;
+}
+
+#clearhigh {
     display: none;
 }
