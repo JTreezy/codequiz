@@ -22,6 +22,9 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/04-web-apis-homework-demo.gif)
 
+Link to deployed GitHub pages application: https://jtreezy.github.io/password-generator/
+ 
+
 
 This homework is graded based on the following criteria: 
 
